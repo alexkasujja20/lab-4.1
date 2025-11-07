@@ -1,10 +1,10 @@
 [
   {
-    "url": "http://example.com",
+    "url": "http://httpbin.org",
     "status": 200,
-    "final_url": "http://example.com/",
-    "server": null,
-    "content_type": "text/html",
-    "content_length": "363"
+    "final_url": "http://httpbin.org/",
+    "server": "gunicorn/19.9.0",
+    "content_type": "text/html; charset=utf-8",
+    "content_length": "9593"
   }
 ]
