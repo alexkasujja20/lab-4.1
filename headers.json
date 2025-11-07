@@ -1,10 +1,10 @@
 [
   {
-    "url": "http://scanme.nmap.org",
+    "url": "http://example.com",
     "status": 200,
-    "final_url": "http://scanme.nmap.org/",
-    "server": "Apache/2.4.7 (Ubuntu)",
+    "final_url": "http://example.com/",
+    "server": null,
     "content_type": "text/html",
-    "content_length": "2068"
+    "content_length": "363"
   }
 ]
