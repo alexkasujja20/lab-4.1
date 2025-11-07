@@ -3,7 +3,7 @@
 from bs4 import BeautifulSoup
 import requests, json, sys, urllib.parse
 
-def parse_page(url, out_file=page_meta.json):
+def parse_page(url, out_file="page_meta.json"):
     r = requests.get(url, timeout=5)
     soup = BeautifulSoup(r.text, "html.parser")
 
