@@ -10,3 +10,7 @@ Server: Apache
 <head>...</head>
 <body>...</body>
 </html>
+
+The HTTP status code lets you verify target reachability and server responsiveness.
+The Server header reveals the underlying web server software and version, helping identify potential vulnerabilities.
+The page content, including title and possibly forms, helps enumerate features and attack surface
