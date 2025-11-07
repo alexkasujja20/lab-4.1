@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 02 Nov 2025 16:25:00 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1256
+Connection: keep-alive
+Server: Apache
+
+<!doctype html>
+<html>
+<head>...</head>
+<body>...</body>
+</html>
