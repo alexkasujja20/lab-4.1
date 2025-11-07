@@ -8,13 +8,16 @@ USER_AGENTS = [
     "curl/7.68.0",
     "sqlmap/1.5.4",
     "Nikto/2.1.6",
-    "python-requests/2.x"
+    "python-requests/2.x",
+    "X-Forwarded-For: 1.2.3.4",
+    "Referer: http://evil.example/",
+    "Accept-Language: fr-FR"
 ]
 
 def probe(url, out_csv=None):
     rows = []
     for ua in USER_AGENTS:
-        headers = {"User-Agent": ua, "X-Forwarded-For": 1.2}
+        headers = {"User-Agent": ua}
         try:
             r = requests.get(url, headers=headers, timeout=5)
             rows.append({
