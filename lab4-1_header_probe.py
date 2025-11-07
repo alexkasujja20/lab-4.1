@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # lab4-1_header_probe.py
+import http
 import requests, sys, csv
 
 USER_AGENTS = [
@@ -13,7 +14,7 @@ USER_AGENTS = [
 def probe(url, out_csv=None):
     rows = []
     for ua in USER_AGENTS:
-        headers = {"User-Agent": ua}
+        headers = {"User-Agent": ua, "X-Forwarded-For": 1.2}
         try:
             r = requests.get(url, headers=headers, timeout=5)
             rows.append({

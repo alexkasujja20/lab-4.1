@@ -1,0 +1,6 @@
+ua,status,server,length,error
+Mozilla/5.0 (Windows NT 10.0; Win64; x64),,,,"Header part (1.2) from ('X-Forwarded-For', 1.2) must be of type str or bytes, not <class 'float'>"
+curl/7.68.0,,,,"Header part (1.2) from ('X-Forwarded-For', 1.2) must be of type str or bytes, not <class 'float'>"
+sqlmap/1.5.4,,,,"Header part (1.2) from ('X-Forwarded-For', 1.2) must be of type str or bytes, not <class 'float'>"
+Nikto/2.1.6,,,,"Header part (1.2) from ('X-Forwarded-For', 1.2) must be of type str or bytes, not <class 'float'>"
+python-requests/2.x,,,,"Header part (1.2) from ('X-Forwarded-For', 1.2) must be of type str or bytes, not <class 'float'>"
